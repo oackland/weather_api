@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 5px 5px 5px 5px;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	}
+body{
+	display: flex;
+	background-color: #2d2c38;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	align-content: center;
+	height:100%
+	}
+
+header
+{
+	top: 100%;
+	display: inline-flex;
+	justify-content : center;
+	align-items: center;
+	width           : 100%;
+	margin-top: 3vh;
+	margin-bottom: 7vh;
+	height: 5vh;
+	}
+h2{
+	
+	}
+#wContainer-container{
+	position: absolute;
+	top: 5rem;
+	left: 10rem;
+	}
+
+section{
+	display: flex;
+	flex-direction: column;
+	justify-items: left;
+	max-width: 390px;
+	}
+#wContainer-container{
+	}
+.forecast-container
+{
+	display        : flex;
+	flex-direction : row;
+	margin-top     : 2rem;
+	margin-bottom: 3rem;
+	gap            :2rem;
+	height: 20vh;
+	}
+
+p{
+	padding: 1.5rem;
+	}
+
+strong{
+	color: #c5c2f6;
+	}
+
+#wContainer-title{
+	display: flex;
+	justify-content: center;
+	}
+
+.day-forecast
+{
+display: flex;
+	flex-direction: row;
+	}
+
+
+#weather-map
+{
+	margin-top : 20px;
+	width      : 100%;
+	height     : 500px;
+	}
+
+
+#search-button
+{
+	background-color : #4caf50;
+	color            : white;
+	padding          : 10px 20px;
+	border           : none;
+	border-radius    : 4px;
+	cursor           : pointer;
+	font-size        : 16px;
+	}
+
+#search-button:hover
+{
+	background-color : #45a049;
+	}
+
+#search-button:focus
+{
+	outline : none;
+	}
+
+#search
+{
+	padding       : 10px;
+	font-size     : 16px;
+	border        : 1px solid #ccc;
+	border-radius : 4px;
+	}
+
+#search::placeholder
+{
+	color : #999;
+	}
+.me{
+	color: yellow;
+	}
+
+p{
+	color: #99676b;
+	font-size: 2.4rem;
+	font-weight: 300;
+	}
+h2{
+	color: #c5c2f6;
+	font-size: 2rem;
+	font-weight: 700;
+	}
+#weather-description{
+	color: #1877f2;
+	}
+ .temp{
+	 color:#c5c2f6;
+	 font-size: 1.8rem;
+	 }
+ 
+ .forecast-container{
+	 color:#c5c2f6;
+	 font-size: 1.4rem;
+	 font-weight: lighter;
+	 }
+ 
+ #toggle{
+	 margin-top: 2rem;
+	background-color: #999999;
+	 border-radius: 5px;
+	 box-shadow: #2d2c38 0 0 0 10px;
+	 }
+img{
+	height: 10rem;
+	}

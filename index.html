@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+
+														<!--header-->
+<header><h1>This is <strong>APATHETIC</strong> weather style</h1></header>
+<!--														section-->
+
+<div id="wContainer-container">
+	<h2 id="wContainer-title">Current Date/Time</h2>
+	<p id="location-info"></p>
+	<p id="weather-info"></p>
+</div>
+														<section class="section">
+<!--																end section-->
+
+<form id="form">
+	<input type="text" id="search" placeholder="Search for a city"/>
+	<button type="submit">Search</button>
+</form>
+
+<button id="toggle">Switch to Fahrenheit</button>
+														</section>
+<div id="main" class="forecast-container"></div>
+<div id="weather-map" style="height: 40vh;"></div>
+
+<script src="js/container.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
